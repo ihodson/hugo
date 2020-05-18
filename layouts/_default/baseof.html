@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+
+{{ partialCached "nav.html" . }}
+
+<div id="main">
+
+  <div class="container">
+
+  {{ block "main" . }}
+
+  {{ end }}
+
+</div>
+
+</div>
+
+</body>
+
+</html>
