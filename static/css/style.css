@@ -46,3 +46,7 @@ nav .container {
 .menuitem {
     align-self: center;
 }
+
+img.placeholderImage {
+    width: 100%;
+}
